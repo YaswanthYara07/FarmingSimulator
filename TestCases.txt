@@ -1,0 +1,49 @@
+
+TestCase
+Main Game
+
+Development Testing
+
+- Test1: For the First Test, we checked if the program would open and the pre generated fruits would grow. Issue arose when plants did not grow depending on the steps taken-DID NOT MEET EXPECTION-FIXED
+
+-Test2: The Second Test, tested if the shop would open and function. When Shop Button was pressed, the program Segment Faulted.-DID NOT MEET EXPECTION-FIXED
+
+-Test3:Retesting the functionality of a shop. Shop opens, items being bought, however the amount is not being corresponded to the main game file-DID NOT MEET EXPECTION-FIXED
+
+-Test4:Retesting Functionality of shop. Shop was able open, and function as required. FUNCTIONED AS EXPECTED
+
+-Test1: Buying multiple items, and placing them down. Program does not place more than the maximum. FUNCTIONS AS EXPECTED\
+
+-Test2: Test if plants can be placed and grown independent of other plant growth stages. DID NOT MEET EXPECTATIONS
+
+-Test3: Spamming items in shop, the program was able to processes the inputs and output correctly.FUNCTIONED AS EXPECTED
+
+-Test4: Test if the hoe is used, if all plants that are fully grown are removed and the correct number of money is added. FUNCTIONED AS EXPECTED
+
+
+Store.h Testing
+
+-Test 1: The shop was tested if it could intake the users inputs and output with the correct number of items and remove the right amount of money from the users. FUNCTIONED AS EXPECTED\
+
+-Test 2: Spam testing was done to ensure that the expected number of items and money was outputted from the Store Class. FUNCTIONED AS EXPECTED\
+
+
+Inventory.h\
+
+-Test1:Tested if the program can intake the correct number of items, store them, and output them. FUNCTIONED AS EXPECTED\
+
+-Test2:Tested if the inventory was able to handle spam inputs. FUNCTIONED AS EXPECTED\
+
+
+Player.h\
+
+-Test1: Can the farmer body, and item bodies move in sync whilst responding to the correct input. FUNCTIONED AS EXPECTED\
+
+- Test2: Does Player Class function correctly with Store.h,Inventory.h and money.h FUNCTIONED AS EXPECTED
+
+
+Plant testing (potato.h,rice.h,rose.h,apple.h)
+
+- Test1: Tested if plant grow to stage 1. FUNCTIONED AS EXPECTED
+- Test2: Tested if plants grow to stage 2. FUNCTIONED AS EXPECTED
+- Test 3: Tested if plants moved in different stages. FUNCTIONED AS EXPECTED.
